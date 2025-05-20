@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опросник-Вопросник</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Опросник-Вопросник</h1>
+    <div class="container">
+        <form class="form" id="form">
+            <div class="question">
+                <legend>1. В каком году был выпущен "Крестный отец"?</legend>
+                <label class="radio-option">
+                    <input type="radio" name="question1" value="1972">
+                    <span class="radio-custom"></span>
+                    1972
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="question1" value="1974">
+                    <span class="radio-custom"></span>
+                    1974
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="question1" value="1978">
+                    <span class="radio-custom"></span>
+                    1978
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="question1" value="1970">
+                    <span class="radio-custom"></span>
+                    1970
+                </label>
+            </div>
+
+            <div class="question">
+                <legend>2. Какой актер получил премию "Оскар" за лучшую мужскую роль в фильмах "Филадельфия" и "Форрест Гамп"?</legend>
+                <label class="radio-option">
+                    <input type="radio" name="question2" value="Том Хэнкс">
+                    <span class="radio-custom"></span>
+                    Том Хэнкс
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="question2" value="Дензел Вашингтон">
+                    <span class="radio-custom"></span>
+                    Дензел Вашингтон
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="question2" value="Аль Пачино">
+                    <span class="radio-custom"></span>
+                    Аль Пачино
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="question2" value="Роберт Де Ниро">
+                    <span class="radio-custom"></span>
+                    Роберт Де Ниро
+                </label>
+            </div>
+
+            <div class="question">
+                <legend>3. Сколько камео снял Альфред Хичкок в своих фильмах с 1927 по 1976 год?</legend>
+                <label class="radio-option">
+                    <input type="radio" name="question3" value="37">
+                    <span class="radio-custom"></span>
+                    37
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="question3" value="42">
+                    <span class="radio-custom"></span>
+                    42
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="question3" value="28">
+                    <span class="radio-custom"></span>
+                    28
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="question3" value="39">
+                    <span class="radio-custom"></span>
+                    39
+                </label>
+            </div>
+
+            <div class="question">
+                <legend>4. В каком фильме 1995 года Сандра Буллок сыграла героиню Анджелу Беннетт?</legend>
+                <label class="radio-option">
+                    <input type="radio" name="question4" value="Скорость">
+                    <span class="radio-custom"></span>
+                    Скорость
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="question4" value="Сеть">
+                    <span class="radio-custom"></span>
+                    Сеть
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="question4" value="Пока ты спал">
+                    <span class="radio-custom"></span>
+                    Пока ты спал
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="question4" value="28 дней">
+                    <span class="radio-custom"></span>
+                    28 дней
+                </label>
+            </div>
+
+            <div class="question">
+                <legend>5. В каком фильме 2008 года с Кристианом Бэйлом в главной роли есть цитата: "Я верю, что все, что тебя не убивает, просто делает тебя... незнакомцем"?</legend>
+                <label class="radio-option">
+                    <input type="radio" name="question5" value="Бэтмен: Начало">
+                    <span class="radio-custom"></span>
+                    Бэтмен: Начало
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="question5" value="Темный рыцарь">
+                    <span class="radio-custom"></span>
+                    Темный рыцарь
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="question5" value="Поезд на Юму">
+                    <span class="radio-custom"></span>
+                    Поезд на Юму
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="question5" value="Машинист">
+                    <span class="radio-custom"></span>
+                    Машинист
+                </label>
+            </div>
+
+            <button type="submit" class="submit-btn">Проверить ответы</button>
+        </form>
+
+        <div id="results" class="results-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

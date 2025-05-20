@@ -1,0 +1,40 @@
+.radio-option {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.radio-option:hover {
+    background-color: #f5f5f5;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.results-container {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+.results-container h2 {
+    color: #333;
+    margin-top: 0;
+}
